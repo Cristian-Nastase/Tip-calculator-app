@@ -10,8 +10,8 @@ The website was done using only:
 
 ## Link to Website (hosted with GitHub Pages)
 
-- [Frontend Mentor Solution URL](https://www.frontendmentor.io/solutions/loopstudios-landing-page-using-sass-a5KpuAs5KV)
-- [Live Site URL - Netlify](https://cristian-nastase-loopstudios.netlify.app/)
+- [Frontend Mentor Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-app-47rmxZn6Fq)
+- [Live Site URL - Netlify](https://cristian-nastase.github.io/Tip-calculator-app/)
 
 
 ## Author
