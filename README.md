@@ -11,7 +11,7 @@ The website was done using only:
 ## Link to Website (hosted with GitHub Pages)
 
 - [Frontend Mentor Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-app-47rmxZn6Fq)
-- [Live Site URL - Netlify](https://cristian-nastase.github.io/Tip-calculator-app/)
+- [Live Site URL - GitHub Pages](https://cristian-nastase.github.io/Tip-calculator-app/)
 
 
 ## Author
