@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+  
+  <img src="images/logo.svg" alt="logo">
+
+  <form id="form" class="form">
+    <div class="desktop__left__side">
+      <label class="bill__input">
+        Bill
+        <input id="bill" name="bill" type="text" />
+        <!-- <img class="dollar__icon" src="images/icon-dollar.svg" alt="dollar-icon"> -->
+      </label>
+  
+      <fieldset id="tip-grid" class="tip__grid">
+        <legend>Select Tip %</legend>
+        
+        <input id="tip-5" class="radio__input" type="radio" name="tip" data-tip-amount="5">
+        <label for="tip-5" class="radio__option tip__input">5% </label>
+        
+  
+        <input id="tip-10" class="radio__input" type="radio" name="tip" data-tip-amount="10">
+        <label for="tip-10" class="radio__option tip__input">10%</label>
+  
+        <input id="tip-15" class="radio__input" type="radio" name="tip" data-tip-amount="15">
+        <label for="tip-15" class="radio__option  tip__input">15%</label>
+        
+  
+        <input id="tip-25" class="radio__input" type="radio" name="tip" data-tip-amount="25">
+        <label for="tip-25" class="radio__option  tip__input">25%</label>
+        
+  
+        <input id="tip-50" class="radio__input" type="radio" name="tip" data-tip-amount="50">
+        <label for="tip-50" class="radio__option  tip__input">50%</label>
+  
+        <input class="tip__input" id="custom-tip" type="text" name="custom-tip" placeholder="Custom">
+      </fieldset>
+  
+      <label class="people__input">
+        Number of people
+        <input id="people" type="text" name="people">
+      </label>
+    </div>
+
+    <div id="result-container" class="result">
+      <p class="result__tip">Tip amount</p>
+      <h2 id="tip-result" class="result__price">$0.00</h2>
+
+      <p class="result__total">Total</p>
+      <h2 id="total-result" class="result__price">$0.00</h2>
+      <button type="reset" class="result__button">Reset</button>
+    </div>
+  </form>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
